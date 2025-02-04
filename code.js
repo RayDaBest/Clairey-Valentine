@@ -24,10 +24,10 @@ function setInitialButtonPositions() {
 
   yesBtn.style.position = "fixed"
   yesBtn.style.left = `${centerX - yesBtn.offsetWidth - 10}px`
-  yesBtn.style.top = `${containerRect.top}px`
+  yesBtn.style.top = `${containerRect.top + 20}px`
 
   noBtn.style.left = `${centerX + 10}px`
-  noBtn.style.top = `${containerRect.top}px`
+  noBtn.style.top = `${containerRect.top + 20}px`
 }
 
 function moveButton() {
