@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  text-align: center;
+  max-width: 1000px;
+  width: 90%;
+  padding: 20px;
+}
+#questionBox {
+  font-size: 100px;
+  background-color: #ffcce6;
+  width: 100%;
+  padding: 60px 40px;
+  margin: 0 auto 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+#questionBox:hover {
+  transform: scale(1.05);
+}
+#question {
+  display: none;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #5c5c8a;
+  margin-bottom: 40px;
+  padding: 0 2cm;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.button {
+  font-size: 24px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#yesBtn {
+  background-color: #b3e0ff;
+  color: #3366cc;
+}
+#noBtn {
+  background-color: #ffb3d9;
+  color: #cc3366;
+  position: fixed;
+}
+#loveMessage {
+  display: none;
+  font-size: 24px;
+  color: #ff66b3;
+  margin-top: 20px;
+}
+
